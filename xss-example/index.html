@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="custom.css">
+    </head>
+    <body>
+        <script>
+            function prova(){
+                txt = document.getElementById('in_text').value;
+                console.log('Content: ' + txt);
+            }
+        </script>
+        <form>
+            <input type="text" id="in_text">
+            <input type="button" value="Click me" onclick="prova();">
+        </form>
+        <div class="container" id="log"></div>
+    </body>
+</html>
